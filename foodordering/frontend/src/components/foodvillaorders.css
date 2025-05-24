@@ -1,0 +1,83 @@
+/* FoodVillaOrders.css */
+
+.orders-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+   border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+  
+    font-size: 35px;
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  
+  .clear-btn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+
+  }
+  
+  .clear-btn:hover {
+    background-color: lightcoral;
+  }
+  
+  .orders-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: crimson;
+  
+  }
+  
+  .order-btn, .remove-btn, .add-btn {
+    background-color:none ;
+    border: none;
+    color: crimson;
+    padding: 5px 10px;
+    margin : 0.5px;
+    cursor:pointer;
+    border-radius:3px;
+    font-size:14px;
+  }
+  
+  .order-btn:hover, .add-btn:hover {
+    background-color: lightcoral;
+  }
+  
+  .remove-btn {
+    background-color:lightcoral;
+  }
+  
+  .remove-btn:hover {
+    background-color: lightcoral;
+  }
+  
+  .order-buttons {
+    margin-top: 15px;
+  }
+  
+  .empty-orders {
+    color: #777;
+    font-style: italic;
+  }
+  

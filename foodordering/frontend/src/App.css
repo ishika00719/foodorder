@@ -1,0 +1,63 @@
+.title{
+    font-family: "Dancing Script", cursive;
+}
+body {
+  padding-top: 100px; /* Adjust this based on the actual height of your navbar */
+}
+
+a{
+    text-decoration: none;
+}
+.categoryimg{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+.homecontentcard{
+    border: none!important;
+}
+/* Show the dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Optional: Add a smooth fade-in transition */
+  .nav-item.dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+  }
+  .text-brown{
+    color: rgb(236, 9, 9);
+  }
+  .text-blue{
+    color:blue;
+  }
+  .text-orange{
+    color: orange;
+  }
+  .text-green{
+    color: green;
+  }
+  .text-pink{
+    color: rgb(161, 22, 216);
+  }
+  .servicecard {
+    box-shadow: 0px 3px 2px 1px; /* Gray subtle shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow */
+  }
+  
+
+  
+  
+
+  
